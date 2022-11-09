@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 13 18:56:48 IST 2022</td>
+<td>Started on:</td><td>Tue Jun 14 01:41:02 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>196 seconds (196365 ms)</td>
+<tr><td>Total time:</td><td>124 seconds (124885 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,84 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of Field is Required message", "signup page features"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div[3]/div/div/div/a&quot;}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;LAPTOP-A39R353N&apos;, ip: &apos;192.168.43.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01bbf48ebedc198a5262476d4c6efb6d, findElement {using=xpath, value=/html/body/div[1]/div[2]/div[3]/div/div/div/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Rohit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49367/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 01bbf48ebedc198a5262476d4c6efb6d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at com.capstone.signuppage.SignUppage.tryItNowFreeButton(SignUppage.java:60)
-	at com.capstone.signuppage.SignUppage.fieldIsRequiredtest(SignUppage.java:113)
-	at stepdefinations.SignUpPageStep.field_is_required(SignUpPageStep.java:27)
-	at ?.Any field is Empty(file:///D:/SQL/Capstone1/src/test/resources/Feature/siignuppage.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace786722925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace786722925'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div[3]/div/div/div/a&quot;}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;LAPTOP-A39R353N&apos;, ip: &apos;192.168.43.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01bbf48ebedc198a5262476d4c6efb6d, findElement {using=xpath, value=/html/body/div[1]/div[2]/div[3]/div/div/div/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Rohit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49367/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 01bbf48ebedc198a5262476d4c6efb6d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at com.capstone.signuppage.SignUppage.tryItNowFreeButton(SignUppage.java:60)
-	at com.capstone.signuppage.SignUppage.fieldIsRequiredtest(SignUppage.java:113)
-	at stepdefinations.SignUpPageStep.field_is_required(SignUpPageStep.java:27)
-	at ?.Any field is Empty(file:///D:/SQL/Capstone1/src/test/resources/Feature/siignuppage.feature:6)
-</pre></div></td>
-<td>22</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -153,50 +75,55 @@ Session ID: 01bbf48ebedc198a5262476d4c6efb6d
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of subscribe button", "Title of your feature"</td>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of Signup button", "signup page features"</td>
+<td></td>
+<td>14</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of the images", "Title of your feature"</td>
+<td></td>
+<td>7</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of email invalid message", "signup page features"</td>
+<td></td>
+<td>15</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of the read the story link", "Title of your feature"</td>
+<td></td>
+<td>6</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of Login button", "signup page features"</td>
+<td></td>
+<td>11</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of try for free button", "Title of your feature"</td>
+<td></td>
+<td>15</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of subscribe button", "Title of your feature"</td>
+<td></td>
+<td>8</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of Terms and Conditions  button", "signup page features"</td>
+<td></td>
+<td>15</td>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
+<tr>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of login button", "Title of your feature"</td>
 <td></td>
 <td>12</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
 <tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of the read the story link", "Title of your feature"</td>
-<td></td>
-<td>14</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of login button", "Title of your feature"</td>
-<td></td>
-<td>14</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of the images", "Title of your feature"</td>
+<td title='co.capstone.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: co.capstone.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verification of Field is Required message", "signup page features"</td>
 <td></td>
 <td>12</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of email invalid message", "signup page features"</td>
-<td></td>
-<td>23</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of try for free button", "Title of your feature"</td>
-<td></td>
-<td>14</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of Terms and Conditions  button", "signup page features"</td>
-<td></td>
-<td>38</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of Signup button", "signup page features"</td>
-<td></td>
-<td>20</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
-<tr>
-<td title='co.capstone.runner.Runner.featue()'><b>featue</b><br>Test class: co.capstone.runner.Runner<br>Parameters: "verification of Login button", "signup page features"</td>
-<td></td>
-<td>18</td>
-<td>co.capstone.runner.Runner@7b36aa0c</td></tr>
+<td>co.capstone.runner.Runner@26d9b808</td></tr>
 </table><p>
 </body>
 </html>

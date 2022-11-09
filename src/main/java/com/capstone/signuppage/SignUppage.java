@@ -51,10 +51,6 @@ public class SignUppage extends BrowserFactory {
 	public String getTitle() {
 		return driver.getTitle();
 	}
-	
-	public void tryItNowFreeButton() {
-		this.tryItNowFreeButton.click();
-	}
 	public void firstName(String fname) {
 		this.firstName.sendKeys(fname);
 	}

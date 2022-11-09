@@ -33,6 +33,10 @@ public class Homepage extends BrowserFactory {
 	@FindBy(xpath="//body/div[@id='__next']/div[2]/div[5]/div[3]/div[1]/div[1]/div[2]")
 	WebElement image;
 	
+	@FindBy(xpath="//body/div[@id='__next']/div[2]/div[1]/div[1]/div[1]/div[2]/a[1]")
+	WebElement pricingpage;
+	
+	
 	
 	
 	public Homepage() {
@@ -67,6 +71,9 @@ public class Homepage extends BrowserFactory {
 		return image.isDisplayed();
 	}
 	
+	public void clickpricingpage() {
+		pricingpage.click();
+	}
 	public void Scrolltoelement(WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);

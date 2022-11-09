@@ -11,12 +11,12 @@ import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-				features="D:\\SQL\\Capstone1\\src\\test\\resources\\Feature",
+				features="src/test/resources/Feature",
 				glue="stepdefinations",
 					monochrome=true,
 					publish=true)
 public class Runner {
-	private TestNGCucumberRunner testNGCucumberRunner;
+private TestNGCucumberRunner testNGCucumberRunner;
 	
 	@BeforeClass(alwaysRun = true)
 	public void setup() throws Exception{
@@ -38,5 +38,4 @@ public class Runner {
 	public void tearDown() {
 		testNGCucumberRunner.finish();
 	}
-	
 }

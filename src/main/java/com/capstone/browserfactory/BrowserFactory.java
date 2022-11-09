@@ -3,8 +3,8 @@ package com.capstone.browserfactory;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +19,7 @@ public class BrowserFactory {
 	public void Browsersetup(){
 		Properties properties = new Properties();
 		try {
-			FileReader file = new FileReader("D:\\SQL\\Capstone1\\src\\main\\resources\\application.properties");
+			FileReader file = new FileReader("src/main/resources/application.properties");
 			properties.load(file);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -45,6 +45,6 @@ public class BrowserFactory {
 	public void initialize() {
 		driver.get(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 }
